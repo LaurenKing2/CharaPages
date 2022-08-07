@@ -251,6 +251,7 @@ function subtab_clicked() {
   r.style.setProperty('--subtab_click_5', 'pointer');
   r.style.setProperty('--subtab_click_6', 'pointer');
   r.style.setProperty('--subtab_click_7', 'pointer');
+  r.style.setProperty('--subtab_click_8', 'pointer');
   r.style.setProperty('--subtab_bg_1', 'var(--active-nav-color)');
   r.style.setProperty('--subtab_bg_2', 'var(--active-nav-color)');
   r.style.setProperty('--subtab_bg_3', 'var(--active-nav-color)');
@@ -258,6 +259,7 @@ function subtab_clicked() {
   r.style.setProperty('--subtab_bg_5', 'var(--active-nav-color)');
   r.style.setProperty('--subtab_bg_6', 'var(--active-nav-color)');
   r.style.setProperty('--subtab_bg_7', 'var(--active-nav-color)');
+  r.style.setProperty('--subtab_bg_8', 'var(--active-nav-color)');
   r.style.setProperty('--subtab_text_1', 'var(--active-near-white)');
   r.style.setProperty('--subtab_text_2', 'var(--active-near-white)');
   r.style.setProperty('--subtab_text_3', 'var(--active-near-white)');
@@ -265,6 +267,7 @@ function subtab_clicked() {
   r.style.setProperty('--subtab_text_5', 'var(--active-near-white)');
   r.style.setProperty('--subtab_text_6', 'var(--active-near-white)');
   r.style.setProperty('--subtab_text_7', 'var(--active-near-white)');
+  r.style.setProperty('--subtab_text_8', 'var(--active-near-white)');
 }
 
 function subtab_1_clicked() {
@@ -493,7 +496,7 @@ a:hover {
 .subtab {
   display: none;
   padding: 0px 10px 20px;
-  width: 705px;
+  width: 625px;
   background-color:var(--active-bg-color-light);
   border-radius: 0px 0px 0px 25px;
   height: 67vh;
@@ -2169,7 +2172,7 @@ red {
               <br>
               <div class="info">
                 <div class="marker">Tag</div>
-                <span>TBA</span>
+                <span><a href="https://ooh-ouch-me-bones.tumblr.com/tagged/Ascension%3B%3B" target="_blank">Here</a></span>
               </div>
               <div class="info">
                 <div class="marker">Thread Tracker</div>
